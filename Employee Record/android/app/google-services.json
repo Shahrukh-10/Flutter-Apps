@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "865256773754",
+    "project_id": "fir-learn-using-flutter-fc4fa",
+    "storage_bucket": "fir-learn-using-flutter-fc4fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865256773754:android:de528097fab6e3ada903c3",
+        "android_client_info": {
+          "package_name": "com.example.firebase_learn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865256773754-v7b5hmpdkvb7o16h2leitqnmjqimsrpf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs_u-TdWStk7jbeCwjA4jcVqhFHg75Rmg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865256773754-v7b5hmpdkvb7o16h2leitqnmjqimsrpf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
