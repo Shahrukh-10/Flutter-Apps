@@ -57,7 +57,7 @@ class Body extends StatelessWidget {
                   bool result =await SignUp(_email, _password);
                   if(result)
                   {
-                    print('success');
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=> HomeScreen()));
                   }
                   else {
                     print('failure');
