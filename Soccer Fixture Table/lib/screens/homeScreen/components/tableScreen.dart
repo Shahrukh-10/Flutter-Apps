@@ -17,7 +17,7 @@ class _TableScreenState extends State<TableScreen> {
   getTable() async {
     http.Response response = await http.get(
         'http://api.football-data.org/v2/competitions/${widget.code}/standings',
-        headers: {'X-Auth-Token': 'fc30ef42ba374357af0ae589bf987167'});
+        headers: {'X-Auth-Token': 'fc30ef42ba374357af0ae589bf987167'});// USE YOUR OWN API KEY (It's free)
     String body = response.body;
     Map data = jsonDecode(body);
     List table = data['standings'][0]['table'];
